@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+#header {
+    float: right;
+    background-color: #1E201E;
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    top: 0;
+    left: 0;
+}
+
+#header ul {
+    float: right;
+    margin-right: 20px;
+    line-height: 50px;
+}
+
+#header ul li {
+    display: inline-block;
+    text-align: center;
+    transition: 0,2s;
+    margin-left: 40px;
+
+}
+
+#header ul li:hover {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    color: #fff;
+}
+
+#header ul li a {
+    text-decoration: none;
+    line-height: 50px;
+    color: #fff;
+}
+
+#header form {
+    float: right;
+}
+
+#header img{
+    width: 60px;
+    position: left;
+    left: 0;
+    padding: 0;
+}
+
+#header h2 {
+    float: right;
+    color: white;
+}
+
+#daftar-article {
+    padding: 0;
+    float: right;
+    top: 0;
+    left: 0;
+    flex: 2;
+    margin-right: 20px;
+}
+
+#daftar-article .article {
+    background-color: #BDE8CA;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-top: 60px;
+
+}
+
+#daftar-article .article img {
+    width: 300px;
+    height: auto;
+}
+
+#daftar-article .article h1 {
+    margin: 10px;
+    font-size: 20px;
+}
+
+#daftar-article .article p {
+    margin: 5px;
+}
+
+#sidebar {
+    background-color: #41B3A2;
+    padding: 30px;
+    padding-top: 60px;
+    padding-bottom: 100%;
+    border: 1px solid #ddd;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    color: #444;
+    text-decoration: none;
+}
+
+#footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+}
