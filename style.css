@@ -39,7 +39,7 @@ body {
 
 #header ul li a {
     text-decoration: none;
-    line-height: 50px;
+    line-height: 30px;
     color: #fff;
 }
 
@@ -54,9 +54,11 @@ body {
     padding: 0;
 }
 
-#header h2 {
+
+#header .right-section a {
     float: right;
-    color: white;
+    padding: 10px;
+
 }
 
 #daftar-article {
@@ -100,7 +102,7 @@ body {
 }
 
 #sidebar ul {
-    list-style-type: none;
+    list-style-type: square;
     padding: 0;
 }
 
@@ -109,8 +111,14 @@ body {
 }
 
 #sidebar ul li a {
-    color: #444;
+    color: #fff;
     text-decoration: none;
+}
+
+#sidebar ul li:hover {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    color: #fff;
 }
 
 #footer {
@@ -119,4 +127,9 @@ body {
     text-align: center;
     padding: 10px;
     bottom: 0;
+}
+
+#footer p a{
+    color: #fff;
+    text-decoration: none;
 }
