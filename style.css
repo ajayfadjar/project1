@@ -8,7 +8,6 @@ body {
 }
 
 #header {
-    float: right;
     background-color: #1E201E;
     width: 100%;
     position: fixed;
@@ -17,8 +16,15 @@ body {
     left: 0;
 }
 
+#header img{
+    width: 60px;
+    float: left;
+    left: 0;
+    padding: 0;
+}
+
 #header ul {
-    float: right;
+    float: left;
     margin-right: 20px;
     line-height: 50px;
 }
@@ -44,20 +50,29 @@ body {
 }
 
 #header form {
-    float: right;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
 }
 
-#header img{
-    width: 60px;
-    position: left;
-    left: 0;
-    padding: 0;
-}
 
 
 #header .right-section a {
+    position: relative;
     float: right;
-    padding: 10px;
+    padding: 15px;
+    background-color: blue;
+    color: black;
+    border-radius: 50px;
+    list-style: none;
+}
+
+#header .right-section a:hover {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    color: #fff;
+    background-color: pink;
+
 
 }
 
@@ -75,7 +90,7 @@ body {
     padding: 20px;
     border: 1px solid #ddd;
     margin-bottom: 20px;
-    padding-top: 60px;
+    border-radius: 25px;
 
 }
 
